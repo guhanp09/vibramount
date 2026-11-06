@@ -1,0 +1,45 @@
+{
+  "freecad_version": "0.20.2",
+  "design": "tapered",
+  "valid_solids": {
+    "base": {
+      "count": 1,
+      "volume_mm3": 156944.68861915098
+    },
+    "top": {
+      "count": 1,
+      "volume_mm3": 126544.68861915103
+    },
+    "rubber": {
+      "count": 4,
+      "volume_mm3": 97716.09789725688
+    },
+    "lower_hardware": {
+      "count": 4,
+      "volume_mm3": 10656.282280976578
+    },
+    "upper_hardware": {
+      "count": 4,
+      "volume_mm3": 5830.7959650626535
+    },
+    "washers": {
+      "count": 8,
+      "volume_mm3": 955.044166691299
+    },
+    "nuts": {
+      "count": 8,
+      "volume_mm3": 2256.4733990978375
+    }
+  },
+  "unexpected_intersections": [],
+  "step_units": "mm",
+  "stl_units": "m",
+  "geometry_state": "unloaded",
+  "dynamic_properties": "assigned independently of geometry",
+  "base_mount_holes_open": true,
+  "metal_gap_mm": 32.0,
+  "step_reimport_valid": true,
+  "stl_extent_m": 0.2199999988079071,
+  "editable_height_recompute": true,
+  "native_reopen_valid": true
+}

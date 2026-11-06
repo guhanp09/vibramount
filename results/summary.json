@@ -1,0 +1,132 @@
+{
+  "inputs": {
+    "mass_kg": 24.0,
+    "mount_count": 4,
+    "gravity_m_s2": 9.80665,
+    "frequency_hz": [
+      20.0,
+      120.0
+    ],
+    "frequency_samples": 1001,
+    "force_amplitude_n": 25.0,
+    "max_static_deflection_m": 0.004,
+    "max_compressive_strain": 0.15,
+    "max_peak_transmissibility": 5.0,
+    "max_mount_design_load_n": 150.0,
+    "load_factor": 1.5,
+    "sweep": {
+      "stiffness_per_mount_n_m": [
+        15000,
+        35000,
+        500
+      ],
+      "damping_per_mount_ns_m": [
+        40,
+        180,
+        5
+      ]
+    },
+    "plate": {
+      "base_mm": [
+        220,
+        180,
+        4
+      ],
+      "top_mm": [
+        200,
+        160,
+        4
+      ],
+      "mount_pitch_mm": [
+        140,
+        110
+      ],
+      "anchor_pitch_mm": [
+        190,
+        150
+      ],
+      "compressor_pitch_mm": [
+        100,
+        70
+      ],
+      "stud_diameter_mm": 6.0,
+      "stud_hole_mm": 6.6,
+      "anchor_hole_mm": 8.5,
+      "cap_mm": 2.0
+    },
+    "designs": {
+      "cylindrical": {
+        "stiffness_per_mount_n_m": 25000,
+        "damping_per_mount_ns_m": 100,
+        "rubber_height_mm": 24,
+        "bottom_diameter_mm": 32,
+        "top_diameter_mm": 32,
+        "bore_mm": 8,
+        "complexity": 1
+      },
+      "tapered": {
+        "stiffness_per_mount_n_m": 18000,
+        "damping_per_mount_ns_m": 100,
+        "rubber_height_mm": 32,
+        "bottom_diameter_mm": 38,
+        "top_diameter_mm": 26,
+        "bore_mm": 8,
+        "complexity": 2
+      },
+      "stepped": {
+        "stiffness_per_mount_n_m": 16000,
+        "damping_per_mount_ns_m": 90,
+        "rubber_height_mm": 40,
+        "bottom_diameter_mm": 36,
+        "top_diameter_mm": 28,
+        "bore_mm": 8,
+        "spacer_mm": 2,
+        "complexity": 3
+      }
+    }
+  },
+  "selected": {
+    "shape": "tapered",
+    "stiffness_per_mount_n_m": 15000.0,
+    "damping_per_mount_ns_m": 65.0,
+    "natural_frequency_hz": 7.957747154594767,
+    "damping_ratio": 0.10833333333333334,
+    "static_deflection_mm": 3.9226599999999996,
+    "static_load_per_mount_n": 58.8399,
+    "design_load_per_mount_n": 89.59145359652355,
+    "nominal_contact_stress_kpa": 186.39114638790704,
+    "compression_strain": 0.12258312499999999,
+    "peak_transmissibility": 4.747988555046855,
+    "peak_frequency_hz": 7.86799077337382,
+    "band_rms_transmissibility": 0.05872324876571108,
+    "band_max_transmissibility": 0.21305657544376916,
+    "max_dynamic_displacement_mm": 0.07796379204568141,
+    "complexity": 2,
+    "feasible": true
+  },
+  "baseline": {
+    "shape": "cylindrical",
+    "stiffness_per_mount_n_m": 25000,
+    "damping_per_mount_ns_m": 100,
+    "natural_frequency_hz": 10.273407401024999,
+    "damping_ratio": 0.12909944487358058,
+    "static_deflection_mm": 2.353596,
+    "static_load_per_mount_n": 58.8399,
+    "design_load_per_mount_n": 90.72740725481123,
+    "nominal_contact_stress_kpa": 120.33096115428913,
+    "compression_strain": 0.09806649999999999,
+    "peak_transmissibility": 4.029681365794678,
+    "peak_frequency_hz": 10.111451764912161,
+    "band_rms_transmissibility": 0.10122404795956272,
+    "band_max_transmissibility": 0.3948091607697966,
+    "max_dynamic_displacement_mm": 0.0881881638328058,
+    "complexity": 1,
+    "feasible": true
+  },
+  "candidate_count": 3567,
+  "rms_reduction_pct": 41.98685989205845,
+  "band_max_reduction_pct": 46.03555423375874,
+  "frequency_integration_relative_change": 7.813855118499191e-10,
+  "physical_testing_performed": false,
+  "property_provenance": "Assigned dynamic properties; not calculated from rubber geometry"
+}

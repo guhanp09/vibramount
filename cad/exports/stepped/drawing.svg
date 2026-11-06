@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="white"/>
+<style>text{font-family:Arial;fill:#203344} .line{stroke:#203344;fill:none;stroke-width:2}</style>
+<text x="35" y="40" font-size="24">VibraMount — stepped</text>
+<text x="35" y="65" font-size="14">Dimensions mm · unloaded assembly · threads omitted</text>
+<rect x="45" y="140" width="330" height="270" class="line"/>
+<rect x="60" y="155" width="300" height="240" class="line"/>
+<text x="45" y="440">Base 220×180×4; upper plate 200×160×4</text>
+<text x="470" y="120">Side elevation · mount stack 46.0</text>
+<rect x="480" y="360" width="390" height="8" fill="#aab5be"/>
+<rect x="495" y="214.0" width="360" height="8" fill="#3b7b9c"/>
+<circle cx="105" cy="192.5" r="12" class="line"/><circle cx="105" cy="357.5" r="12" class="line"/><circle cx="315" cy="192.5" r="12" class="line"/><circle cx="315" cy="357.5" r="12" class="line"/><rect x="550" y="222.0" width="34" height="138.0" fill="#444c55"/><line x1="567" y1="197.0" x2="567" y2="227.0" stroke="#bb7b31" stroke-width="4"/><line x1="567" y1="355" x2="567" y2="390" stroke="#bb7b31" stroke-width="4"/><rect x="780" y="222.0" width="34" height="138.0" fill="#444c55"/><line x1="797" y1="197.0" x2="797" y2="227.0" stroke="#bb7b31" stroke-width="4"/><line x1="797" y1="355" x2="797" y2="390" stroke="#bb7b31" stroke-width="4"/><text x="470" y="420">Elastomer height 40; OD 36/28; bore 8</text>
+<text x="35" y="480">Mounts: 4× M6 split studs on 140×110 pitch; plate holes Ø6.6; radial clearance 0.3</text>
+<text x="35" y="505">Base anchors: 190×150 pitch Ø8.5; compressor interface: 100×70 pitch Ø8.5; verify purchased hardware.</text>
+</svg>

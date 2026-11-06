@@ -1,0 +1,8 @@
+item,quantity,description
+base_plate,1,220x180x4 mm steel assumption; measured anchor interface required
+isolated_plate,1,200x160x4 mm steel assumption; measured compressor interface required
+isolator,4,Selected equivalent dynamic properties; bonded end caps and separate M6 studs
+M6_nut,8,Hardware rating and tightening requirements to be selected
+M6_washer,8,Nominal OD12 ID7 thickness1.6 mm
+base_anchor,4,Example M8 clearance; select for actual support
+compressor_fastener,4,Example M8 clearance; select for actual compressor

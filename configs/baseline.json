@@ -1,0 +1,20 @@
+{
+  "mass_kg": 24.0,
+  "mount_count": 4,
+  "gravity_m_s2": 9.80665,
+  "frequency_hz": [20.0, 120.0],
+  "frequency_samples": 1001,
+  "force_amplitude_n": 25.0,
+  "max_static_deflection_m": 0.004,
+  "max_compressive_strain": 0.15,
+  "max_peak_transmissibility": 5.0,
+  "max_mount_design_load_n": 150.0,
+  "load_factor": 1.5,
+  "sweep": {"stiffness_per_mount_n_m": [15000, 35000, 500], "damping_per_mount_ns_m": [40, 180, 5]},
+  "plate": {"base_mm": [220, 180, 4], "top_mm": [200, 160, 4], "mount_pitch_mm": [140, 110], "anchor_pitch_mm": [190, 150], "compressor_pitch_mm": [100, 70], "stud_diameter_mm": 6.0, "stud_hole_mm": 6.6, "anchor_hole_mm": 8.5, "cap_mm": 2.0},
+  "designs": {
+    "cylindrical": {"stiffness_per_mount_n_m": 25000, "damping_per_mount_ns_m": 100, "rubber_height_mm": 24, "bottom_diameter_mm": 32, "top_diameter_mm": 32, "bore_mm": 8, "complexity": 1},
+    "tapered": {"stiffness_per_mount_n_m": 18000, "damping_per_mount_ns_m": 100, "rubber_height_mm": 32, "bottom_diameter_mm": 38, "top_diameter_mm": 26, "bore_mm": 8, "complexity": 2},
+    "stepped": {"stiffness_per_mount_n_m": 16000, "damping_per_mount_ns_m": 90, "rubber_height_mm": 40, "bottom_diameter_mm": 36, "top_diameter_mm": 28, "bore_mm": 8, "spacer_mm": 2, "complexity": 3}
+  }
+}
